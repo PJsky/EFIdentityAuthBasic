@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFIdentityAuthBasic", "EFIdentityAuthBasic\EFIdentityAuthBasic.csproj", "{FE945E66-DA67-42AD-B9F5-CEB346E60893}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE945E66-DA67-42AD-B9F5-CEB346E60893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE945E66-DA67-42AD-B9F5-CEB346E60893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE945E66-DA67-42AD-B9F5-CEB346E60893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE945E66-DA67-42AD-B9F5-CEB346E60893}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7810EC3B-DE0B-4A4C-B595-82BD3CCFF95E}
+	EndGlobalSection
+EndGlobal
