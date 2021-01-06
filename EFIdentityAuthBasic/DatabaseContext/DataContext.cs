@@ -12,6 +12,8 @@ namespace EFIdentityAuthBasic.DatabaseContext
     {
         protected readonly IConfiguration Configuration;
 
+        public DataContext() : base() { }
+
         public DataContext(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -20,7 +22,7 @@ namespace EFIdentityAuthBasic.DatabaseContext
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // connect to sql server database
-            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=DbAuthTesting2;Trusted_Connection=True;MultipleActiveResultSets=true");
+            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=DbAuthTesting3;Trusted_Connection=True;MultipleActiveResultSets=true");
         }
 
         public Task<int> SaveChangesAsync()

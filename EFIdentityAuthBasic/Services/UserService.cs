@@ -8,7 +8,7 @@ using System.Text;
 
 namespace EFIdentityAuthBasic.Services
 {
-    class UserService : IUserService
+    public class UserService : IUserService
     {
         private IDbContext context;
         private PasswordHasher pHasher = new PasswordHasher();
@@ -48,5 +48,7 @@ namespace EFIdentityAuthBasic.Services
 
             return user;
         }
+
+        public User GetById(int id) => context.Users.Find(id);
     }
 }
